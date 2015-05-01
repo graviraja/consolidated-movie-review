@@ -1,0 +1,146 @@
+doctype html
+//
+  Helios by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+html
+  head
+    title Movie Review Site
+    meta(http-equiv='content-type', content='text/html; charset=utf-8')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    //if lte IE 8
+      script(src='css/ie/html5shiv.js')
+    script(src='js/jquery.min.js')
+    script(src='js/jquery.dropotron.min.js')
+    script(src='js/jquery.scrolly.min.js')
+    script(src='js/jquery.onvisible.min.js')
+    script(src='js/skel.min.js')
+    script(src='js/skel-layers.min.js')
+    script(src='js/init.js')
+    noscript
+      link(rel='stylesheet', href='css/skel.css')
+      link(rel='stylesheet', href='css/style.css')
+      link(rel='stylesheet', href='css/style-desktop.css')
+      link(rel='stylesheet', href='css/style-noscript.css')
+    //if lte IE 8
+      link(rel='stylesheet', href='css/ie/v8.css')
+  body
+    // Header
+    #header
+      // Inner
+      .inner
+        header
+          h1
+            a#logo(href='/') Movie Review Site
+      // Nav
+      nav#nav
+        ul
+          li
+            a(href='/') Home
+          li
+            a(href='/#movie-poster') Trailers
+          li
+            a(href='/user') All Movies
+    .wrapper.style1
+      .container.special
+        header(style='text-align:center;')
+          h2=movie.name
+
+        .row
+          section.3u
+            img(src=movie.image, style="height:400px;width:270px;")
+          section.2u
+            ul.divided
+                li
+                  article.tweet
+                    h3
+                      a(href='#') Director
+                li
+                  article.tweet
+                    h3 
+                      a(href='#') Actors
+                li
+                  article.tweet
+                    h3
+                      a(href='#') Genre
+                li
+                  article.tweet
+                    h3
+                      a(href='#') Language
+                li
+                  article.tweet
+                    h3
+                      a(href='#') Release Date    
+          section.4u
+            ul.divided
+                li
+                  article.tweet
+                      p=movie.director
+                li
+                  article.tweet
+                    p=movie.actors
+                li
+                  article.tweet
+                    p=movie.genre
+                li
+                  article.tweet
+                    p=movie.language
+                li
+                  article.tweet
+                    p=movie.date    
+          section.3u
+              p=movie.story
+    // Features
+    .wrapper.style1
+      container.special
+      each index, val in movie.allsites
+        .row
+          section.3u 
+            header(style="padding-left:15px;")
+              h3
+                a(href=index.extlink)=index.site 
+          section.6u
+            p=index.story
+          section.3u  
+            a.page-scroll(href=index.extlink)
+               span Read Full Review 
+    // Footer
+    #footer
+      .container
+        .row
+          .12u
+            // Contact
+            section.contact
+              header
+                h3 Movie Review Site
+              p
+                | This Site is a sincere attempt to organize the movie reviews from various critics. A movie fan can find all reviews
+                | of the latest movies in a single place.
+              ul.icons
+                li
+                  a.icon.fa-twitter(href='#')
+                    span.label Twitter
+                li
+                  a.icon.fa-facebook(href='#')
+                    span.label Facebook
+                li
+                  a.icon.fa-instagram(href='#')
+                    span.label Instagram
+                li
+                  a.icon.fa-pinterest(href='#')
+                    span.label Pinterest
+                li
+                  a.icon.fa-dribbble(href='#')
+                    span.label Dribbble
+                li
+                  a.icon.fa-linkedin(href='#')
+                    span.label Linkedin
+            // Copyright
+            .copyright
+              ul.menu
+                li © Untitled. All rights reserved.
+                li
+                  | Design: 
+                  a(href='http://html5up.net') HTML5 UP
+

@@ -1,0 +1,154 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 warn package.json Reviews2@1.0.0 No description
+5 warn package.json Reviews2@1.0.0 No repository field.
+6 warn package.json Reviews2@1.0.0 No README data
+7 verbose install where, deps [ '/Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2',
+7 verbose install   [ 'async',
+7 verbose install     'ArrayAsync',
+7 verbose install     'body-parser',
+7 verbose install     'cheerio',
+7 verbose install     'cookie-parser',
+7 verbose install     'express',
+7 verbose install     'debug',
+7 verbose install     'forEachAsync',
+7 verbose install     'morgan',
+7 verbose install     'mongodb',
+7 verbose install     'jade',
+7 verbose install     'monk',
+7 verbose install     'request',
+7 verbose install     'serve-favicon' ] ]
+8 verbose install where, peers [ '/Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2',
+8 verbose install   [] ]
+9 info preinstall Reviews2@1.0.0
+10 verbose already installed skipping express@^4.9.8 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+11 verbose already installed skipping debug@^2.0.0 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+12 silly cache add args [ 'forEachAsync@^5.0.5', null ]
+13 verbose cache add spec forEachAsync@^5.0.5
+14 silly cache add parsed spec { raw: 'forEachAsync@^5.0.5',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'forEachAsync',
+14 silly cache add   rawSpec: '^5.0.5',
+14 silly cache add   spec: '>=5.0.5 <6.0.0',
+14 silly cache add   type: 'range' }
+15 verbose addNamed forEachAsync@>=5.0.5 <6.0.0
+16 silly addNamed semver.valid null
+17 silly addNamed semver.validRange >=5.0.5 <6.0.0
+18 silly addNameRange { name: 'forEachAsync', range: '>=5.0.5 <6.0.0', hasData: false }
+19 silly mapToRegistry name forEachAsync
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/forEachAsync
+23 verbose addNameRange registry:https://registry.npmjs.org/forEachAsync not in flight; fetching
+24 verbose already installed skipping morgan@^1.3.2 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+25 verbose already installed skipping mongodb@^1.4.26 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+26 verbose already installed skipping jade@^1.6.0 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+27 verbose already installed skipping monk@^0.9.1 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+28 verbose already installed skipping request@^2.55.0 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+29 verbose already installed skipping serve-favicon@^2.1.7 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+30 verbose request uri https://registry.npmjs.org/forEachAsync
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 10:55:48 PM
+33 verbose request id fd9398811f4ccc59
+34 verbose etag "9MN3ZFJEZIIY1Z4BYZX756EY0"
+35 http request GET https://registry.npmjs.org/forEachAsync
+36 verbose already installed skipping async@^0.9.0 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+37 silly cache add args [ 'ArrayAsync@^3.0.0', null ]
+38 verbose cache add spec ArrayAsync@^3.0.0
+39 silly cache add parsed spec { raw: 'ArrayAsync@^3.0.0',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'ArrayAsync',
+39 silly cache add   rawSpec: '^3.0.0',
+39 silly cache add   spec: '>=3.0.0 <4.0.0',
+39 silly cache add   type: 'range' }
+40 verbose addNamed ArrayAsync@>=3.0.0 <4.0.0
+41 silly addNamed semver.valid null
+42 silly addNamed semver.validRange >=3.0.0 <4.0.0
+43 silly addNameRange { name: 'ArrayAsync', range: '>=3.0.0 <4.0.0', hasData: false }
+44 silly mapToRegistry name ArrayAsync
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/ArrayAsync
+48 verbose addNameRange registry:https://registry.npmjs.org/ArrayAsync not in flight; fetching
+49 verbose already installed skipping body-parser@^1.8.4 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+50 verbose already installed skipping cheerio@^0.19.0 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+51 verbose already installed skipping cookie-parser@^1.3.3 /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+52 verbose request uri https://registry.npmjs.org/ArrayAsync
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 10:55:48 PM
+55 http request GET https://registry.npmjs.org/ArrayAsync
+56 http 404 https://registry.npmjs.org/ArrayAsync
+57 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 verbose headers   'content-type': 'application/json',
+57 verbose headers   'cache-control': 'max-age=0',
+57 verbose headers   'content-length': '51',
+57 verbose headers   'accept-ranges': 'bytes',
+57 verbose headers   date: 'Fri, 01 May 2015 17:24:56 GMT',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   connection: 'close',
+57 verbose headers   'x-served-by': 'cache-sn87-SIN',
+57 verbose headers   'x-cache': 'MISS',
+57 verbose headers   'x-cache-hits': '0',
+57 verbose headers   'x-timer': 'S1430501095.039908,VS0,VE986' }
+58 silly get cb [ 404,
+58 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 silly get     'content-type': 'application/json',
+58 silly get     'cache-control': 'max-age=0',
+58 silly get     'content-length': '51',
+58 silly get     'accept-ranges': 'bytes',
+58 silly get     date: 'Fri, 01 May 2015 17:24:56 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     connection: 'close',
+58 silly get     'x-served-by': 'cache-sn87-SIN',
+58 silly get     'x-cache': 'MISS',
+58 silly get     'x-cache-hits': '0',
+58 silly get     'x-timer': 'S1430501095.039908,VS0,VE986' } ]
+59 http 304 https://registry.npmjs.org/forEachAsync
+60 silly get cb [ 304,
+60 silly get   { date: 'Fri, 01 May 2015 17:24:55 GMT',
+60 silly get     via: '1.1 varnish',
+60 silly get     'last-modified': 'Fri, 01 May 2015 17:24:56 GMT',
+60 silly get     'cache-control': 'max-age=60',
+60 silly get     etag: '"9MN3ZFJEZIIY1Z4BYZX756EY0"',
+60 silly get     age: '0',
+60 silly get     connection: 'close',
+60 silly get     'x-served-by': 'cache-sn86-SIN',
+60 silly get     'x-cache': 'MISS',
+60 silly get     'x-cache-hits': '0',
+60 silly get     'x-timer': 'S1430501095.042965,VS0,VE1200',
+60 silly get     vary: 'Accept' } ]
+61 verbose etag https://registry.npmjs.org/forEachAsync from cache
+62 verbose get saving forEachAsync to /Users/Apple/.npm/registry.npmjs.org/forEachAsync/.cache.json
+63 silly addNameRange number 2 { name: 'forEachAsync', range: '>=5.0.5 <6.0.0', hasData: true }
+64 silly addNameRange versions [ 'forEachAsync',
+64 silly addNameRange   [ '2.1.1', '2.2.0', '3.0.0-rc1', '2.2.1', '3.0.0' ] ]
+65 verbose stack Error: 404 Not Found: ArrayAsync
+65 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:251:14)
+65 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:178:14)
+65 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:344:22)
+65 verbose stack     at Request.emit (events.js:110:17)
+65 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1239:14)
+65 verbose stack     at Request.emit (events.js:129:20)
+65 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1187:12)
+65 verbose stack     at IncomingMessage.emit (events.js:129:20)
+65 verbose stack     at _stream_readable.js:908:16
+65 verbose stack     at process._tickCallback (node.js:355:11)
+66 verbose statusCode 404
+67 verbose pkgid ArrayAsync
+68 verbose cwd /Users/Apple/Desktop/4thsem/Engineering Systems/Nodejs/Reviews2
+69 error Darwin 14.1.0
+70 error argv "node" "/usr/local/bin/npm" "install"
+71 error node v0.12.0
+72 error npm  v2.5.1
+73 error code E404
+74 error 404 Not Found: ArrayAsync
+74 error 404
+74 error 404 'ArrayAsync' is not in the npm registry.
+74 error 404 You should bug the author to publish it (or use the name yourself!)
+74 error 404 It was specified as a dependency of 'Reviews2'
+74 error 404
+74 error 404 Note that you can also install from a
+74 error 404 tarball, folder, http url, or git url.
+75 verbose exit [ 1, true ]

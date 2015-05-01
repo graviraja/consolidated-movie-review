@@ -1,0 +1,93 @@
+doctype html
+html
+  head
+    title Movie Review Site
+    meta(http-equiv='content-type', content='text/html; charset=utf-8')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    //if lte IE 8
+      script(src='css/ie/html5shiv.js')
+    script(src='js/jquery.min.js')
+    script(src='js/jquery.dropotron.min.js')
+    script(src='js/jquery.scrolly.min.js')
+    script(src='js/jquery.onvisible.min.js')
+    script(src='js/skel.min.js')
+    script(src='js/skel-layers.min.js')
+    script(src='js/init.js')
+    noscript
+      link(rel='stylesheet', href='css/skel.css')
+      link(rel='stylesheet', href='css/style.css')
+      link(rel='stylesheet', href='css/style-desktop.css')
+      link(rel='stylesheet', href='css/style-noscript.css')
+    //if lte IE 8
+      link(rel='stylesheet', href='css/ie/v8.css')
+  body
+    // Header
+    #header
+      .inner
+        header
+          h1 Movie Review Site
+      // Nav
+      nav#nav
+        ul
+          li
+            a(href='/') Home
+          li
+            a(href='#movie-poster') Trailers
+          li
+            a(href='/user') All Movies
+   
+    
+    // Carousel
+    section.carousel
+      .reel
+      section#banner
+        header
+          h2 Latest Trailers
+      #movie-poster.col-xs-10.col-sm-6.col-lg-5
+      for index, val in result
+        article#main.container.special
+          a.image.featured(href=index.link)
+            img.img-responsive(src=index.image, alt='')
+          h3
+            a(href=index.link)=index.name  
+       
+    // Footer
+    #footer
+      .container
+        .row
+          .12u
+            // Contact
+            section.contact
+              header
+                h3 Movie Review Site
+              p
+                | This Site is a sincere attempt to organize the movie reviews from various critics. A movie fan can find all reviews
+                | of the latest movies in a single place.
+              ul.icons
+                li
+                  a.icon.fa-twitter(href='#')
+                    span.label Twitter
+                li
+                  a.icon.fa-facebook(href='#')
+                    span.label Facebook
+                li
+                  a.icon.fa-instagram(href='#')
+                    span.label Instagram
+                li
+                  a.icon.fa-pinterest(href='#')
+                    span.label Pinterest
+                li
+                  a.icon.fa-dribbble(href='#')
+                    span.label Dribbble
+                li
+                  a.icon.fa-linkedin(href='#')
+                    span.label Linkedin
+            // Copyright
+            .copyright
+              ul.menu
+                li © Untitled. All rights reserved.
+                li
+                  | Design: 
+                  a(href='http://html5up.net') HTML5 UP
+
