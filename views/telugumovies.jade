@@ -96,13 +96,16 @@ html
       container.special
       each index, val in movie.allsites
         .row
-          section.3u 
+          section.2u 
             header(style="padding-left:15px;")
               h3
                 a(href=index.extlink)=index.site 
+          section.2u
+            h4
+              p=index.rate      
           section.6u
             p=index.story
-          section.3u  
+          section.2u  
             a.page-scroll(href=index.extlink)
                span Read Full Review 
     // Footer
