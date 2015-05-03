@@ -36,11 +36,13 @@ html
             a(href='#movie-poster') Trailers
           li
             a(href='/user') All Movies
-   
+  
     
     // Carousel
     section.carousel
-      .reel
+      header
+            h3(href='#movie-poster', style="text-align:center;font-size:30px;") Latest Trailers
+      #movie-poster.reel
       for index, val in result
         article(style="margin-left:100px;margin-bottom:50px;")
           a.image.featured(href='#')
