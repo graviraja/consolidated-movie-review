@@ -41,17 +41,14 @@ html
     // Carousel
     section.carousel
       .reel
-      section#banner
-        header
-          h2 Latest Trailers
-      #movie-poster.col-xs-10.col-sm-6.col-lg-5
       for index, val in result
-        article#main.container.special
-          a.image.featured(href=index.link)
-            img.img-responsive(src=index.image, alt='')
-          h3
-            a(href=index.link)=index.name  
-       
+        article(style="margin-left:100px;margin-bottom:50px;")
+          a.image.featured(href='#')
+            img(src=index.image, alt='')
+          header
+            h3
+              a(href=index.link)=index.name
+          
     // Footer
     #footer
       .container
